@@ -11,6 +11,8 @@ public class Player : Character
     // This is calling the CaughtImage in the Canvas
     public GameObject caughtImage;
 
+    public Timer timer;
+
     void Start()
     {
         inventory = Instantiate(inventoryPrefab);
@@ -27,6 +29,11 @@ public class Player : Character
             burriedMapPieceInRange.SetActive(false);
             burriedMapPieceInRange = null;
             UIManager.instance.HideInteractionPrompt();
+
+            if (timer != null)
+            {
+                timer.AddTime(10f);
+            }
 
             if (inventory.IsFull())
             {
@@ -48,6 +55,11 @@ public class Player : Character
                 print("hit it: " + hitMapPiece.objectName);
                 inventory.AddItem(hitMapPiece);
                 collision.gameObject.SetActive(false);
+
+                if (timer != null)
+                {
+                    timer.AddTime(10f);
+                }
             }
 
             // This checks if the inventory is full with all the map parts
