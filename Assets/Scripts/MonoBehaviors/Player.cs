@@ -5,6 +5,9 @@ public class Player : Character
     public Inventory inventoryPrefab;
     Inventory inventory;
 
+    public UIManager uiManager;
+    private GameObject burriedMapPieceInRange;
+
     // This is calling the CaughtImage in the Canvas
     public GameObject caughtImage;
 
@@ -14,6 +17,25 @@ public class Player : Character
         // This makes the image that says you beat the game not visible when the game starts
         caughtImage.SetActive(false);
     }
+
+    void Update()
+    {
+        if (burriedMapPieceInRange != null && Input.GetKeyDown(KeyCode.E))
+        {
+            Debug.Log("Dug up: " + burriedMapPieceInRange.name);
+            inventory.AddItem(burriedMapPieceInRange.GetComponent<PickUpMap>().piece);
+            burriedMapPieceInRange.SetActive(false);
+            burriedMapPieceInRange = null;
+            UIManager.instance.HideInteractionPrompt();
+
+            if (inventory.IsFull())
+            {
+                StopGame();
+            }
+        }
+    }
+
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -33,6 +55,23 @@ public class Player : Character
             {
                 StopGame();
             }
+
+        }
+
+        if (collision.CompareTag("Dig"))
+        {
+            burriedMapPieceInRange = collision.gameObject;
+            UIManager.instance.ShowInteractionPrompt("Press E to dig up the map piece!");
+        }
+
+    }
+
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject == burriedMapPieceInRange)
+        {
+            burriedMapPieceInRange = null;
+            UIManager.instance.HideInteractionPrompt();
         }
     }
 

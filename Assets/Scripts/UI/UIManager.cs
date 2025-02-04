@@ -1,4 +1,5 @@
 using UnityEngine;
+using TMPro;
 
 public class UIManager : MonoBehaviour
 {
@@ -25,6 +26,8 @@ public class UIManager : MonoBehaviour
 
     // Reference to the PlayerController script attached to the Player
     [HideInInspector] public PlayerController PC;
+
+    public TMP_Text interactionText;
 
     private void Start()
     {
@@ -78,5 +81,17 @@ public class UIManager : MonoBehaviour
     public void ShowWinScreen()
     {
         gameWin.SetActive(true);
+    }
+
+    public void ShowInteractionPrompt(string message)
+    {
+        interactionText.text = message;
+        interactionText.gameObject.SetActive(true);
+    }
+
+    public void HideInteractionPrompt()
+    {
+        interactionText.text = "";
+        interactionText.gameObject.SetActive(false);
     }
 }

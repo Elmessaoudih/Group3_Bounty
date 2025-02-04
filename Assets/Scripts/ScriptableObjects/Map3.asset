@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: mapPiece3
   sprite: {fileID: 765603891, guid: 5fd37f524987fee4ba9104893b794192, type: 3}
-  quantity: 0
+  pieceQuantity: 0

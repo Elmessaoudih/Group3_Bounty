@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/glue in progress.unity
+    path: Assets/Scenes/glue in progress.unity
     guid: 132f0f30d8d356b4cb577b386ea7c8eb
   m_configObjects: {}
