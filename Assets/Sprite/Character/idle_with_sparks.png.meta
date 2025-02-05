@@ -101,9 +101,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 138
+        y: 144
         width: 86
-        height: 138
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -122,9 +122,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 86
-        y: 138
-        width: 86
-        height: 138
+        y: 144
+        width: 87
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,10 +142,10 @@ TextureImporter:
       name: idle_with_sparks_2
       rect:
         serializedVersion: 2
-        x: 172
-        y: 138
-        width: 86
-        height: 138
+        x: 173
+        y: 144
+        width: 87
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,10 +163,10 @@ TextureImporter:
       name: idle_with_sparks_3
       rect:
         serializedVersion: 2
-        x: 261
-        y: 138
-        width: 86
-        height: 138
+        x: 260
+        y: 144
+        width: 87
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,9 +185,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 347
-        y: 138
-        width: 86
-        height: 138
+        y: 144
+        width: 87
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,10 +205,10 @@ TextureImporter:
       name: idle_with_sparks_5
       rect:
         serializedVersion: 2
-        x: 435
-        y: 138
-        width: 86
-        height: 138
+        x: 434
+        y: 144
+        width: 87
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,10 +226,10 @@ TextureImporter:
       name: idle_with_sparks_6
       rect:
         serializedVersion: 2
-        x: 524
-        y: 138
-        width: 86
-        height: 138
+        x: 521
+        y: 144
+        width: 87
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,10 +247,10 @@ TextureImporter:
       name: idle_with_sparks_7
       rect:
         serializedVersion: 2
-        x: 609
-        y: 138
-        width: 86
-        height: 138
+        x: 608
+        y: 144
+        width: 87
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,9 +269,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 695
-        y: 138
-        width: 86
-        height: 138
+        y: 144
+        width: 87
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,10 +289,10 @@ TextureImporter:
       name: idle_with_sparks_9
       rect:
         serializedVersion: 2
-        x: 781
-        y: 138
-        width: 86
-        height: 138
+        x: 782
+        y: 144
+        width: 87
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -311,9 +311,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 869
-        y: 138
-        width: 86
-        height: 138
+        y: 144
+        width: 87
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,10 +331,10 @@ TextureImporter:
       name: idle_with_sparks_11
       rect:
         serializedVersion: 2
-        x: 957
-        y: 138
-        width: 86
-        height: 138
+        x: 956
+        y: 144
+        width: 87
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,9 +353,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1043
-        y: 138
-        width: 86
-        height: 138
+        y: 144
+        width: 87
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,10 +373,10 @@ TextureImporter:
       name: idle_with_sparks_13
       rect:
         serializedVersion: 2
-        x: 1128
-        y: 138
-        width: 86
-        height: 138
+        x: 1130
+        y: 144
+        width: 87
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,10 +394,10 @@ TextureImporter:
       name: idle_with_sparks_14
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 138
-        width: 86
-        height: 138
+        x: 1217
+        y: 144
+        width: 87
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -418,7 +418,7 @@ TextureImporter:
         x: 0
         y: 0
         width: 86
-        height: 138
+        height: 145
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -438,8 +438,8 @@ TextureImporter:
         serializedVersion: 2
         x: 86
         y: 0
-        width: 86
-        height: 138
+        width: 87
+        height: 145
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -457,10 +457,10 @@ TextureImporter:
       name: idle_with_sparks_17
       rect:
         serializedVersion: 2
-        x: 172
+        x: 173
         y: 0
-        width: 86
-        height: 138
+        width: 87
+        height: 145
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -478,10 +478,10 @@ TextureImporter:
       name: idle_with_sparks_18
       rect:
         serializedVersion: 2
-        x: 258
+        x: 260
         y: 0
-        width: 86
-        height: 138
+        width: 87
+        height: 145
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -499,10 +499,10 @@ TextureImporter:
       name: idle_with_sparks_19
       rect:
         serializedVersion: 2
-        x: 346
-        y: 1
-        width: 86
-        height: 138
+        x: 347
+        y: 0
+        width: 87
+        height: 145
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -520,10 +520,10 @@ TextureImporter:
       name: idle_with_sparks_20
       rect:
         serializedVersion: 2
-        x: 432
+        x: 434
         y: 1
-        width: 86
-        height: 138
+        width: 87
+        height: 145
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -541,10 +541,10 @@ TextureImporter:
       name: idle_with_sparks_21
       rect:
         serializedVersion: 2
-        x: 523
+        x: 521
         y: 0
-        width: 86
-        height: 138
+        width: 87
+        height: 145
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -562,10 +562,10 @@ TextureImporter:
       name: idle_with_sparks_22
       rect:
         serializedVersion: 2
-        x: 607
+        x: 608
         y: 1
-        width: 86
-        height: 138
+        width: 87
+        height: 145
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -583,10 +583,10 @@ TextureImporter:
       name: idle_with_sparks_23
       rect:
         serializedVersion: 2
-        x: 694
+        x: 695
         y: 0
-        width: 86
-        height: 138
+        width: 87
+        height: 145
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -604,10 +604,10 @@ TextureImporter:
       name: idle_with_sparks_24
       rect:
         serializedVersion: 2
-        x: 783
+        x: 782
         y: 0
-        width: 86
-        height: 138
+        width: 87
+        height: 145
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -625,10 +625,10 @@ TextureImporter:
       name: idle_with_sparks_25
       rect:
         serializedVersion: 2
-        x: 871
+        x: 869
         y: 0
-        width: 86
-        height: 138
+        width: 87
+        height: 145
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -646,10 +646,10 @@ TextureImporter:
       name: idle_with_sparks_26
       rect:
         serializedVersion: 2
-        x: 957
+        x: 956
         y: 0
-        width: 86
-        height: 138
+        width: 87
+        height: 145
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -667,10 +667,10 @@ TextureImporter:
       name: idle_with_sparks_27
       rect:
         serializedVersion: 2
-        x: 1042
+        x: 1043
         y: 0
-        width: 86
-        height: 138
+        width: 87
+        height: 145
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -688,10 +688,10 @@ TextureImporter:
       name: idle_with_sparks_28
       rect:
         serializedVersion: 2
-        x: 1131
+        x: 1130
         y: 0
-        width: 86
-        height: 138
+        width: 87
+        height: 145
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -709,10 +709,10 @@ TextureImporter:
       name: idle_with_sparks_29
       rect:
         serializedVersion: 2
-        x: 1219
+        x: 1217
         y: 0
-        width: 86
-        height: 138
+        width: 87
+        height: 145
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
