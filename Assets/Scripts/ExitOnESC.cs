@@ -14,12 +14,6 @@ public class ExitGameOnEscape : MonoBehaviour
     // Quits the game
     void QuitGame()
     {
-#if UNITY_EDITOR
-        // If in the Unity Editor, stop play mode
-        UnityEditor.EditorApplication.isPlaying = false;
-#else
-            // If in a built application, quit the game
             Application.Quit();
-#endif
     }
 }

@@ -21,11 +21,12 @@ public class Timer : MonoBehaviour
             remainingTime = 0;
             LoseScreen();
             enabled = false;
+        } else
+        {
+            int minutes = Mathf.FloorToInt(remainingTime / 60);
+            int seconds = Mathf.FloorToInt(remainingTime % 60);
+            timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
         }
-
-        int minutes = Mathf.FloorToInt(remainingTime / 60);
-        int seconds = Mathf.FloorToInt(remainingTime % 60);
-        timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 
     public void AddTime(float amount)
@@ -35,11 +36,6 @@ public class Timer : MonoBehaviour
 
     void LoseScreen()
     {
-        Time.timeScale = 0f;
-
-        // The code for losing goes here.
-
-        // inventory.gameObject.SetActive(false);
-        // loseImage.SetActive(true);
+        timerText.text = "You Lose!";
     }
 }

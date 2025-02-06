@@ -1,4 +1,5 @@
 using UnityEngine;
+using TMPro;
 
 public class Player : Character
 {
@@ -10,7 +11,9 @@ public class Player : Character
 
     // This is calling the CaughtImage in the Canvas
     public GameObject caughtImage;
+    public GameObject lostImage;
 
+    public TextMeshProUGUI timerText;
     public Timer timer;
 
     void Start()
@@ -39,6 +42,11 @@ public class Player : Character
             {
                 StopGame();
             }
+        }
+
+        if (timerText.text == "You Lose!")
+        {
+            Lost();
         }
     }
 
@@ -90,13 +98,17 @@ public class Player : Character
     // Stops the game and displays the image
     void StopGame()
     {
-        // This pauses the game
-        Time.timeScale = 0f;
-
         // This hides the inventory UI when the game ends
         inventory.gameObject.SetActive(false);
 
         // This displays the caught image after you collect all 4 pieces and "ends" the game
         caughtImage.SetActive(true);
     }
+
+    void Lost()
+    {
+        lostImage.SetActive(true);
+        inventory.gameObject.SetActive(false);
+    }
+
 }

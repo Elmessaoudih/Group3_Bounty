@@ -882,17 +882,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '>> This Game is all about find and collect Bounties.
-
-    >> To pause
-    the game press Space Bar.
-
-    >>.............
-
-    >>.....
-
-    >>More description
-    can be added here....'
+  m_text: ">> This Game is all about find and collect Bounties.\n>> Find the map
+    parts scattered around the island.\n>> The timer will run down so make sure to
+    find\n       the map parts in time. \n>> Don't worry, as you find parts, the
+    timer will be\n       increased.\n>> Keep a close eye, some map parts might be\n      
+    burried"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1005,7 +999,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -373, y: -194}
+  m_AnchoredPosition: {x: -373, y: -225}
   m_SizeDelta: {x: 221.0575, y: 64.5091}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &876259516
@@ -1264,7 +1258,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1228526370
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1356,7 +1350,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Game Descriptions
+  m_text: Game Description
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -1699,7 +1693,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1769737734
 RectTransform:
   m_ObjectHideFlags: 0
